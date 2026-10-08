@@ -59,4 +59,108 @@ export default function Home() {
         </p>
       </section>
 
-      <section id="m
+      <section id="marga" className="feature-section">
+  <div className="section-heading">
+    <div>
+      <p className="eyebrow dark">01 • MARGA</p>
+      <h2>Marga & Parsadaan</h2>
+    </div>
+    <span className="section-number">01</span>
+  </div>
+
+  <div className="cards">
+    <article className="card">
+      <div className="card-icon">M</div>
+      <h3>Kenali Marga</h3>
+      <p>
+        Mengenal akar marga, silsilah, dan hubungan
+        kekerabatan dalam masyarakat Batak.
+      </p>
+    </article>
+
+    <article className="card">
+      <div className="card-icon">P</div>
+      <h3>Parsadaan</h3>
+      <p>
+        Ruang untuk mengenal perkumpulan marga dan
+        membangun hubungan antar-generasi.
+      </p>
+    </article>
+
+    <article className="card">
+      <div className="card-icon">H</div>
+      <h3>Hita & Kekerabatan</h3>
+      <p>
+        Memahami Dalihan Na Tolu dan nilai kebersamaan
+        yang menjadi bagian penting budaya Batak.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section id="budaya" className="feature-section culture">
+  <div className="section-heading">
+    <div>
+      <p className="eyebrow dark">02 • WARISAN</p>
+      <h2>Budaya Batak</h2>
+    </div>
+    <span className="section-number">02</span>
+  </div>
+
+  <div className="culture-grid">
+    <div className="culture-item">
+      <strong>Ulos</strong>
+      <span>Simbol kasih, identitas, dan nilai kehidupan.</span>
+    </div>
+
+    <div className="culture-item">
+      <strong>Gondang</strong>
+      <span>Warisan musik dan tradisi masyarakat Batak.</span>
+    </div>
+
+    <div className="culture-item">
+      <strong>Tortor</strong>
+      <span>Gerak dan ekspresi budaya dalam acara adat.</span>
+    </div>
+
+    <div className="culture-item">
+      <strong>Bahasa</strong>
+      <span>Bahasa sebagai jembatan menjaga identitas generasi.</span>
+    </div>
+  </div>
+</section>
+
+<section id="komunitas" className="community">
+  <p className="eyebrow">03 • KOMUNITAS</p>
+
+  <h2>
+    Hita marsada.
+    <br />
+    Hita marsiurupan.
+  </h2>
+
+  <p>
+    Tempat bertemu, berbagi cerita, informasi, kegiatan parsadaan,
+    dan membangun hubungan Batak di mana pun berada.
+  </p>
+
+  <a href="#komunitas" className="button button-light">
+    Masuk Ruang Komunitas
+  </a>
+</section>
+
+<footer>
+  <div>
+    <strong>AHU BATAK</strong>
+    <p>Hita Batak, Hita Parsaoran.</p>
+  </div>
+
+  <div className="footer-links">
+    <a href="#marga">Marga</a>
+    <a href="#budaya">Budaya</a>
+    <a href="#komunitas">Komunitas</a>
+  </div>
+</footer>
+    </main>
+  );
+}
