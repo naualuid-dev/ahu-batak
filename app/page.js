@@ -2,7 +2,10 @@ export default function Home() {
   return (
     <main>
       <header>
-        <strong>AHU BATAK</strong>
+        <a href="/" className="brand">
+          <span className="brand-mark">ᯤ</span>
+          <span>AHU BATAK</span>
+        </a>
 
         <nav>
           <a href="#marga">Marga</a>
@@ -12,48 +15,48 @@ export default function Home() {
       </header>
 
       <section className="hero">
-        <p className="eyebrow">HORAS! 👋</p>
+        <div className="hero-pattern" />
 
-        <h1>
-          Hita Batak,
+        <div className="hero-content">
+          <p className="eyebrow">HORAS • SALAM BATAK</p>
+
+          <h1>
+            Hita Batak.
+            <br />
+            Hita Parsaoran.
+          </h1>
+
+          <p className="hero-description">
+            Ruang digital untuk mengenal marga, budaya, sejarah,
+            komunitas, dan cerita Batak dari generasi ke generasi.
+          </p>
+
+          <div className="hero-actions">
+            <a href="#marga" className="button button-primary">
+              Jelajahi Marga
+            </a>
+
+            <a href="#komunitas" className="button button-outline">
+              Lihat Komunitas
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="intro">
+        <p className="eyebrow dark">AHU BATAK</p>
+
+        <h2>
+          Satu akar,
           <br />
-          Hita Parsaoran.
-        </h1>
+          banyak cerita.
+        </h2>
 
         <p>
-          Ruang digital untuk mengenal, menjaga, dan
-          menghubungkan masyarakat Batak di mana pun berada.
+          AHU BATAK menjadi ruang bersama untuk mendokumentasikan
+          identitas, pengetahuan, dan kehidupan masyarakat Batak
+          dalam dunia digital.
         </p>
       </section>
 
-      <section id="marga">
-        <h2>Marga & Parsadaan</h2>
-        <p>
-          Kenali akar keluarga, marga, dan hubungan
-          kekerabatan Batak.
-        </p>
-      </section>
-
-      <section id="budaya">
-        <h2>Budaya Batak</h2>
-        <p>
-          Ulos, gondang, tortor, bahasa, sejarah, adat,
-          dan warisan leluhur.
-        </p>
-      </section>
-
-      <section id="komunitas">
-        <h2>Komunitas</h2>
-        <p>
-          Tempat bertemu, berbagi cerita, informasi,
-          dan kegiatan parsadaan.
-        </p>
-      </section>
-
-      <footer>
-        <strong>AHU BATAK</strong>
-        <p>Hita Batak, Hita Parsaoran.</p>
-      </footer>
-    </main>
-  );
-}
+      <section id="m
